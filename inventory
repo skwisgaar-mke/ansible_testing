@@ -1,0 +1,8 @@
+[demoservers]
+demo1 ansible_host=192.168.86.60
+demo2 ansible_host=192.168.86.61
+
+[demoservers:vars]
+ansible_user=bryan
+ansible_ssh_private_key_file=~/.ssh/id_ansible
+
